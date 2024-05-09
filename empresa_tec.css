@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url('IMÁGENES/fondo.jpg');
+    background-size: cover; /* Para que la imagen cubra todo el fondo */
+    background-position: center; /* Para centrar la imagen */
+    background-repeat: repeat; /* Para que la imagen no se repita */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+div {
+    -webkit-user-select: none; /* Para Safari */
+    -moz-user-select: none; /* Para Firefox */
+    -ms-user-select: none; /* Para Internet Explorer/Edge */
+    user-select: none; /* Estándar */
+}
+
+header {
+    background-color: #333;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+.navbar {
+    background-color: #6e0303;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: rgb(186, 194, 184);
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+
+.artwork {
+    margin: 20px auto;
+    width: 80%;
+    background-image: url(imagenes/morado.jpg)
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.artwork img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.carousel {
+    margin-top: 20px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+
+.form {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+#container {
+    width: 80%;
+    margin: 20px auto;
+    background-image: url(IMÁGENES/fondo.jpg)
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
